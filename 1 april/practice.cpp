@@ -286,6 +286,7 @@ int main()
     // 192
 
     // string name, address, ch;
+    // int net_amount;
     // double amount, discount, purchase;
     // cout << "Enter Name and Address and amount";
     // cin >> name >> address >> amount;
@@ -293,7 +294,7 @@ int main()
     // cout << "Enter Which typeof purchase for laptop 'L' and desktop for 'D'";
     // cin >> ch;
 
-    // if (ch == "L" || ch == "D")
+    // if (ch == "L")
     // {
     //     if (amount > 0 && amount <= 25000)
     //     {
@@ -318,7 +319,7 @@ int main()
     //         cout << "After discount  Total amount : " << net_amount;
     //     }
     // }
-    // else
+    // else if(ch == "D")
     // {
 
     //     if (amount > 0 && amount <= 25000)
@@ -346,6 +347,8 @@ int main()
     //     }
     // }
 
+
+// 193
     // int total_amount;
     // int discount,net_amount;
     // cout<<"Enter Total cast : ";
