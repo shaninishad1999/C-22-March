@@ -347,8 +347,7 @@ int main()
     //     }
     // }
 
-
-// 193
+    // 193
     // int total_amount;
     // int discount,net_amount;
     // cout<<"Enter Total cast : ";
@@ -377,13 +376,248 @@ int main()
     //     cout<<"after discount paid money : "<<net_amount;
     // }
 
+    // Write a program that accepts a number from user and calculate whether it is positive or negative or zero
 
+    // int number;
 
+    // cout << "Enter Your Number : ";
+    // cin >> number;
+    // if (number > 0)
+    // {
+    //     cout << "Number is Positive : " << number;
+    // }
+    // else if (number == 0)
+    // {
+    //     cout << "Number is not positive nor negative : " << number;
+    // }
+    // else
+    // {
+    //     cout << "Number is negative : " << number;
+    // }
 
+    // Write a program to calculate whether year is leap year or not?
 
+    // int year;
 
+    // cout << "Enter Any Year : ";
+    // cin >> year;
 
+    // if (year % 4 == 0)
+    // {
+    //     if (year % 100 != 0 || year % 400 == 0)
+    //     {
+    //         /* code */
+    //     }
 
+    //     cout << "Leap Year ";
+    // }
+    // else
+    // {
+    //     cout << "Not Leap Year ";
+    // }
+
+    // Write a program to calculate whether a character is vowel or consonant.
+
+    // char ch;
+    // cout << "Enter Your Character : ";
+    // cin >> ch;
+
+    // if (ch == 'a'||'A' || ch == 'e'||'E' || ch == 'i'||'I' || ch == 'o'||'O' || ch == 'u'||'U')
+    // {
+    //     cout << "You Enter Vovels character : " << ch;
+    // }
+    // else
+    // {
+    //     cout << "You Enter Consonents character : " << ch;
+    // }
+
+    // char ch;
+    // cout << "Enter Your Character : ";
+    // cin >> ch;
+    // switch (ch)
+    // {
+    // case  'a':
+    // case  'e':
+    // case  'i':
+    // case  'o':
+    // case 'u':
+    //     cout << "vovels : " << ch;
+    //     break;
+
+    // default:
+    //     cout << "consonents : " << ch;
+    //     break;
+    // }
+
+    // Write a program to calculate whether character is in lowercase or uppercase.
+    // char ch;
+    // cout << "Enter Your character : ";
+    // cin >> ch;
+
+    // if (ch >= 'A' && ch <= 'Z')
+    // {
+    //     cout << "Upper case";
+    // }
+    // else if (ch >= 'a' && ch <= 'z')
+    // {
+    //     cout << "lovercse";
+    // }
+    // else
+    // {
+    //     cout << "None Entery";
+    // }
+
+    // Write a program to calculate smallest number out of given three numbers.
+
+    // int num1, num2, num3;
+    // cout << "Enter Three Number : ";
+    // cin >> num1 >> num2 >> num3;
+
+    // if (num1 >= num2 && num1 >= num3)
+    // {
+    //     if (num1 >= num2 & num1 >= num3)
+    //     {
+    //         cout << "First number is greatest : " << num1;
+    //     }
+    //     else if (num2 >= num1 && num2 >= num3)
+    //     {
+    //         cout << "second  number is greatest : " << num2;
+    //     }
+
+    //     else if (num3 >= num1 && num3 >= num2)
+    //     {
+    //         cout << "Third  number is greatest : " << num2;
+    //     }
+    // }
+    // else if (num2 >= num1 && num3 >= num3)
+    // {
+    //     if (num1 >= num2 & num1 >= num3)
+    //     {
+    //         cout << "First number is greatest : " << num1;
+    //     }
+    //     else if (num2 >= num1 && num2 >= num3)
+    //     {
+    //         cout << "second  number is greatest : " << num2;
+    //     }
+
+    //     else if (num3 >= num1 && num3 >= num2)
+    //     {
+    //         cout << "Third  number is greatest : " << num2;
+    //     }
+    // }
+    // else
+    // {
+    //     if (num1 >= num2 & num1 >= num3)
+    //     {
+    //         cout << "First number is greatest : " << num1;
+    //     }
+    //     else if (num2 >= num1 && num2 >= num3)
+    //     {
+    //         cout << "second  number is greatest : " << num2;
+    //     }
+
+    //     else if (num3 >= num1 && num3 >= num2)
+    //     {
+    //         cout << "Third  number is greatest : " << num2;
+    //     }
+    // }
+
+    // A shop will give discount of 10% if the cost of purchased quantity is more than 1000.
+    // Ask user for quantity
+    // Suppose, one unit will cost 100.
+    // Judge and print total cost for user.
+
+    // int quantity,cost=100,total_cost;
+    // double discount,net_amount,Net_amount;
+
+    // cout<<"Enter Quantity : ";
+    // cin>>quantity;
+
+    // if (quantity>1000)
+    // {
+    //     total_cost=cost*quantity;
+    //     discount=total_cost*(10.0/100);
+    //     Net_amount=total_cost-discount;
+    //     cout<<"Total Cost amount : "<<total_cost<<endl;
+    //     cout<<"Total discount amount : "<<discount<<endl;
+    //     cout<<"Total Paybell amount : "<<Net_amount;
+
+    // }
+    // else{
+    //     cout<<"discount Not available in this quantity : "<<quantity;
+    // }
+
+    // Write a program to Take values of length and breadth of a rectangle from user
+    //  and check if it is square or not.
+
+    // int b, l;
+    // cout << "Enter length and breadth : ";
+    // cin >> b >> l;
+
+    // if (b == l)
+    // {
+    //     cout << "It is square : " << b * b;
+    // }
+    // else
+    // {
+    //     cout << "It is not square : " << b * l;
+    // }
+
+    // Write a program to take input age of male or Female and check he/she is eligible for marriage or not.
+    //  ask age and gender.
+
+    // int age;
+    // string gender;
+    // char ch;
+
+    // cout << "Enter age of male 'M' or female 'F' : ";
+    // cin >> ch;
+
+    // if (ch == 'M' || ch == 'm')
+    // {
+    //     if (age > 21 && age <= 50)
+    //     {
+    //         cout << "You are eligible for marriage." << endl;
+    //     }
+    //     else
+    //     {
+    //         cout << "You are not eligible for marriage yet." << endl;
+    //     }
+    // }
+    // else if (ch == 'F' || ch == 'f')
+    // {
+    //     if (age > 18 & age<=50)
+    //     {
+    //         cout << "You are eligible for marriage." << endl;
+    //     }
+    //     else
+    //     {
+    //         cout << "You are not eligible for marriage yet." << endl;
+    //     }
+    // }
+
+    // A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years.
+    // Ask user for their salary and year of service and print the net bonus amount.
+
+    // int ser_year, sallary;
+    // double bonus;
+    // double net_sallary;
+    //   cout << "Enter Your ser_year : ";
+    //   cin>>ser_year;
+    // if (ser_year > 5)
+    // {
+
+    //     cout << "Enter Your salary : ";
+    //     cin >> sallary;
+    //     bonus = sallary * (5.0 / 100);
+    //     cout << "bonus : " << bonus <<endl;
+    //     sallary=sallary+bonus;
+    //     cout << "total : " <<sallary ;
+    // }
+    // else
+    // {
+    //     cout << "No Discount";
+    // }
 
     
 }
