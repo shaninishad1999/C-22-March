@@ -1,0 +1,24 @@
+//3. Write a  program to check whether a number is negative, positive or zero.
+
+#include <iostream>
+using namespace std;
+int main()
+{
+
+    int number;
+    cout << "Enter  Number :" << endl;
+    cin >> number;
+
+    if (number > 0)
+    {
+        cout << "Number is Positive : " << number;
+    }
+    else if (number < 0)
+    {
+        cout << "Number is Negative : " << number;
+    }
+    else
+    {
+        cout << "Number is Zero : " << number;
+    }
+}
