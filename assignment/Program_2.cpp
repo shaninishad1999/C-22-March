@@ -5,12 +5,12 @@ using namespace std;
 int main()
 {
 
-    // data type and variable declaration
+   // data type and variable declaration
     float num1, num2, num3;
-    cout << "Enter Two Number :" << endl;    //Message display
-    cin >> num1 >> num2 >> num3;             //User input 
+    cout << "Enter Three Number :" << endl;    //Message display
+    cin >> num1 >> num2 >> num3;             //taking input from user
 
-    if (num1 > num2 && num1 > num3)       //Checking codition of the  value form user input num1 greater from,num2,num3
+    if (num1 > num2 && num1 > num3)       //Checking condition of the  value form user input num1 greater from,num2,num3
     {
         cout << "Num1 is Greater : " << num1;
     }

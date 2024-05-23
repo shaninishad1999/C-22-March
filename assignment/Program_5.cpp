@@ -7,7 +7,7 @@ int main(){
     //data type declaration
     int number;
     cout<<"Enter  Number :"<<endl;    //message for display
-    cin>>number;         //user input
+    cin>>number;         ///taking input from user
 
     if (number%2==0)      //Condition for even and odd number
     {

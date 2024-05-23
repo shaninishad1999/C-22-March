@@ -4,7 +4,7 @@ using namespace std;
 int main()
 
 {
-    int a, b;
+    // int a, b;
     // ^  xor  1 0 = 1
     //         0 1 = 1
     //         1 1 = 0
@@ -20,7 +20,17 @@ int main()
 
     // left shift  <<
     // a=12<<3;
-    a = 12 >> 3;
-    // cout<<a;
-    cout << a;
+    // a = 12 >> 3;
+    // // cout<<a;
+    // cout << a;
+    int a;
+    cout<<"enter\n";
+    if(cout<<"number\n")
+    {
+        cout<<"hello";
+    }
+    else{
+        cout<<"bye";
+    }
+
 }

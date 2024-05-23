@@ -5,15 +5,15 @@ using namespace std;
 int main()
 {
 
-    // data type declaration
+   // data type and variable declaration
     int amount, rm, number;
     cout << "Enter  Amount :" << endl; // message for display
-    cin >> amount;                     // 1388                // user input
+    cin >> amount;                     // 1388                //taking input from user
 
     number = amount / 100;  //number=13
     cout << "Notes of 100 : " << number<<endl;
 
-    rm=amount-number*100;   //88
+    rm=amount-number*100;   //rm=88  ,rm=remain-number
     number=rm/50;           //number=1
     cout<<"Notes of 50 : "<<number<<endl;
 

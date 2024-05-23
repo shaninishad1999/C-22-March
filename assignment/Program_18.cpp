@@ -15,8 +15,8 @@ int main()
     // data type delcaration
     float p, c, b, m, com, per;
     cout << "Enter 5 Subject Marks : " << endl; // message for display
-    cin >> p >> c >> b >> m >> com;             // user input
-
+    cin >> p >> c >> b >> m >> com;             //taking input from user
+    
     per = (p + c + b + m + com) / 5; // Percentage calculated
 
     // According to percetage  grade

@@ -12,56 +12,66 @@ int main()
 {
 
     // data type delcaration
-    float unit, unit_price;
+    float unit, unit_price, sur_charge;
     cout << "Enter Electricity Unit : " << endl; // message for display
-    cin >> unit;                                 // user input
+    cin >> unit;                                 // taking input from user
 
     // according to unit to excute the condtion
-    if (unit<0)
+    if (unit < 0)
     {
-       cout<<"Please Enter Valid Input";
+        cout << "Please Enter Valid Input";
     }
-    
-    else if (unit > 0 && unit <= 50)
+
+    // Calculated price according to unit+additinal charge
+    else if (unit > 0 && unit < 50)
     {
         unit_price = unit * .50;
-        cout << "Total Electricity Bill : " << unit_price;
+        sur_charge = unit_price + (20.0 / 100);
+        cout << "Total Electricity Bill After Additional Surcharge : " << sur_charge;
     }
-    else if (unit > 50 && unit <= 150)
+    else if (unit >= 50 && unit < 150)
     {
         unit_price = unit * .75;
-        cout << "Total Electricity Bill : " << unit_price;
+        sur_charge = unit_price + (20.0 / 100);
+        cout << "Total Electricity Bill After Additional Surcharge : " << unit_price;
     }
-    else if (unit > 150 && unit <= 250)
+    else if (unit >= 150 && unit < 250)
     {
         unit_price = unit * 1.20;
-        cout << "Total Electricity Bill : " << unit_price;
+        sur_charge = unit_price + (20.0 / 100);
+        cout << "Total Electricity Bill After Additional Surcharge : " << unit_price;
     }
     else if (unit >= 250)
     {
         unit_price = unit * 1.50;
-        cout << "Total Electricity Bill : " << unit_price;
+        sur_charge = unit_price + (20.0 / 100);
+        cout << "Total Electricity Bill After Additional Surcharge: " << unit_price;
     }
 
     // this code is can reduce line of code
 
-  /* if (unit > 0 && unit <= 50)
-    {
-        unit_price = unit * .50;
-    }
-    else if (unit > 50 && unit <= 150)
-    {
-        unit_price = unit * .75;
-    }
-    else if (unit > 150 && unit <= 250)
-    {
-        unit_price = unit * 1.20;
-    }
-    else if (unit >= 250)
-    {
-        unit_price = unit * 1.50;
-    }
-    cout << "Total Electricity Bill : " << unit_price;
+    /* if (unit > 0 && unit <= 50)
+      {
+          unit_price = unit * .50;
+          sur_charge=unit_price+(20.0/100);
+      }
+      else if (unit > 50 && unit <= 150)
+      {
+          unit_price = unit * .75;
+          sur_charge=unit_price+(20.0/100);
+      }
+      else if (unit > 150 && unit <= 250)
+      {
+          unit_price = unit * 1.20;
+          sur_charge=unit_price+(20.0/100);
+      }
+      else if (unit >= 250)
+      {
+          unit_price = unit * 1.50;
+          sur_charge=unit_price+(20.0/100);
+      }
+          // Expected output
+      cout << "Total Electricity Bill After Additional Surcharge : " << sur_charge;
 
-    */
+      */
 }

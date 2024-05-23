@@ -4,10 +4,10 @@
 using namespace std;
 int main(){
 
-    //data type declaration
+    // data type and variable declaration
     int year;
     cout<<"Enter  Year :"<<endl;    //message for display
-    cin>>year;         //user input
+    cin>>year;         //taking input from user
 
     if ((year%4==0 && year!=100)|| year%400==0)      //Condition for leap year
     {
@@ -18,7 +18,5 @@ int main(){
     {
         cout<<"Enter Year is Not Leap Year : "<<year;
     }
-   
-    
     
 }

@@ -1,29 +1,27 @@
-//16. Write a  program to check whether the triangle is equilateral, isosceles or scalene triangle.
+// 16. Write a  program to check whether the triangle is equilateral, isosceles or scalene triangle.
 
-
-#include<iostream>
+#include <iostream>
 using namespace std;
- int main(){
-    
-    //data type delcaration
-    int a,b,c;
-    cout<<"Enter Angle of Triangle : "<<endl;   // message for display
-    cin>>a>>b>>c;                               //user input
+int main()
+{
 
-    if (a==b==c==60 )          //codition for equilateral triangle
+    // data type declaration
+    int a, b, c;
+    cout << "Enter Angle of Triangle : " << endl; // message for display
+    cin >> a >> b >> c;                           // taking input from user
+
+    if (a == b && b == c && c==a) // condition for equilateral triangle
     {
-    
-        cout<<"It is a triangle : ";
+
+        cout << "It is a equilateral triangle : ";
     }
-    else if ((a==b!=c)==180)          //codition for isosceles triangle
+    else if ((a == b || a == c || b == c) ) // condition for isosceles triangle
     {
-        cout<<"Please Enter valid input for triangle";
+        cout << "It is a isosceles triangle : ";
     }
-    else if ((a!=b!=c)==180)          //codition for scalene triangle
+    else             // other these are  scalene triangle
     {
-        cout<<"Please Enter valid input for triangle";
+        cout << "It is a scalene triangle : ";
     }
   
-  
-    
-} 
+}

@@ -8,14 +8,14 @@ int main()
     // data type declaration
     char character;
     cout << "Enter  Any Character :" << endl; // message for display
-    cin >> character;                         // user input
+    cin >> character;                         //taking input from user
 
-    if (character >= 'a' && character <= 'z') // Codition for check lowercase alphabet
+    if (character >= 'a' && character <= 'z') // Condition for check lowercase alphabet
     {
         cout << "It is Lowercase alphabet : " << character;
     }
    
-    else if (character >= 'A' && character <= 'Z')   //// Codition for check uppercase  alphabet
+    else if (character >= 'A' && character <= 'Z')   //// Condition for check uppercase  alphabet
     {
         cout << "It is Uppercase Alphabet : "<<character;
     }

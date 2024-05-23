@@ -1,21 +1,22 @@
-//15. Write a  program to input all sides of a triangle and check whether triangle is valid or not.
+// 15. Write a  program to input all sides of a triangle and check whether triangle is valid or not.
 
-#include<iostream>
+#include <iostream>
 using namespace std;
- int main(){
-    
-    //data type delcaration
-    int a,b,c;
-    cout<<"Enter Angle of Triangle : "<<endl;   // message for display
-    cin>>a>>b>>c;                               //user input
+int main()
+{
 
-    if ((a+b+c)==180)          //codition for triangle
+    // data type and variable declaration
+    int a, b, c;
+    cout << "Enter Angle of Triangle : " << endl; // message for display
+    cin >> a >> b >> c;                           // taking input from user
+
+    // codition for triangle
+    if (a + b > c && b + c > a && c + a > b )
     {
-        cout<<"It is a triangle : "<<(a+b+c);
+        cout << "It is a Valid triangle ";
     }
     else
     {
-        cout<<"Please Enter valid input for triangle";
+        cout << "It is not valid input for triangle";
     }
-    
-} 
+}
