@@ -18,7 +18,8 @@ int main()
     cout<<"Notes of 50 : "<<number<<endl;
 
     rm=rm-number*50;        //rm=38
-    number=rm/20;           //number=1
+    number=rm/20;          
+    
 
     cout<<"Notes of 20 : "<<number<<endl;
 
@@ -30,7 +31,8 @@ int main()
     rm=rm-number*10;       //rm=8
     number=rm/5;          //number=1
 
-    cout<<"Notes of 5 : "<<number<<endl;
+    cout<<"Notes of 5 : "<<number<<
+    endl;
 
     rm=rm-number*5;      //rm=3
     number=rm/2;         //number=1

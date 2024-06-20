@@ -49,8 +49,6 @@ int main(){
         break;
     
     
-    default:
-    cout << "Please Enter Valid month number!";
-        break;
+
     }  
 } 

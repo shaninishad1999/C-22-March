@@ -33,8 +33,6 @@ int main()
         cout << "Saturday";
         break;
 
-    default:
-        cout << "Please Enter Week month number!";
-        break;
+    
     }
 }

@@ -17,12 +17,12 @@ int main()
         cout << "It is Alphabet : " << character;
     }
 
-    else if (character == '$' || character == '*' || character == '{' || character == '}' || character == '(' || character == ')' || character == '#' || character == '~' || character == ';' || character == ':' || character == '.' || character == '[' || character == ']')
-    {
-        cout << "It is Special Character";
-    }
-    else if (character >= '0' || character <= '9')
+    else if (character >= '0' && character <= '9')
     {
         cout << "It is Number : " << character;
+    }
+    else 
+    {
+        cout << "It is Special Character";
     }
 }

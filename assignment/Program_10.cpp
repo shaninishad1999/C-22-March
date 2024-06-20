@@ -5,8 +5,9 @@ using namespace std;
 int main()
 {
 
-    // data type declaration
+  //  data type declaration
     char character;
+
     cout << "Enter  Any Character :" << endl; // message for display
     cin >> character;                         //taking input from user
 
@@ -19,9 +20,19 @@ int main()
     {
         cout << "It is Uppercase Alphabet : "<<character;
     }
-    else{
-        cout<<"Please Enter Valid Input";
-    }
+    // while (character<='Z')
+    // {
+    //     cout<<character<<"\t";
+    //     character++;
+        
+    // }
+    // for (char i = 'a'; i <='z'; i++)
+    // {
+    //     cout<<i;
+    // }
+    
+    
+ 
 
   
 }
