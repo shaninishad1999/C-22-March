@@ -2,22 +2,21 @@
 using namespace std;
 
 // no return & without parameter
-void cybrom()
-{
-    cout << "Welcome ";
-}
+
 int c;
 void add(int a, int b)
 {
      c = a + b;
 }
-void show()
+void show()  //no return & without parameter
 {
     cout << "sum = " << c;
 }
 int main()
 {
-    cybrom();
-    add(3, 5);
-    show();
+    int x,y;
+    cout<<"enter two number \n";
+    cin>>x>>y;
+    add(x,y);//with parameter
+    show(); //without parameter
 }
