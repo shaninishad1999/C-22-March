@@ -1,24 +1,33 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int rec(int n){
-   
-    if (n==0124)
+//back tracking 
+int rec(int num, int at = 1)
+{
+
+    if (at > 3)
     {
-        return n;
+        cout << "block code";
+        return -1;
     }
-    else 
+    else if (num == 2025)
     {
+        cout << "Your welcome";
         return 0;
     }
-    
-   
-    cout<<n<<"\t";  //tail recursion
-    
-}
-int main(){
-    int n;
-    cout<<"Enter Passward ";
-    cin>>n;
-   cout<<"psd= " <<rec(n);
+    else
+    {
+        cout << "Enter agin psd : ";
+        cin >> num;
+        return rec(num, at+1);
 
+    }
+}
+int main()
+{
+    int n;
+    cout << "Enter Passward : ";
+    cin >> n;
+     rec(n);
+    
+     
 }
