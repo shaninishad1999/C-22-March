@@ -22,7 +22,7 @@ int main()
         cout << arr[i] << "\t";
     }
     delete[] arr;
-    arr = NULL;
+    arr = NULL;                                                                                                                                            
     cout << "\nagain\n";
     for (int i = 0; i < a; i++)
     {

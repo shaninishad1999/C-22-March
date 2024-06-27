@@ -84,7 +84,7 @@ int main()
             mx2 = mx1;
             mx1 = a[i];
         }
-        if (mx2<mx1 && mx1>a[i])
+       else if (mx2>mx1 && mx1<a[i])
         {
             mx2=a[i];
         }
