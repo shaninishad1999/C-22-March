@@ -9,7 +9,7 @@ int main(){
     cout<<"Enter  Year :"<<endl;    //message for display
     cin>>year;         //taking input from user
 
-    if ((year%4==0 && year!=100)|| year%400==0)      //Condition for leap year
+    if  ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))//Condition for leap year
     {
         cout<<"Enter Year is  Leap Year : "<<year;
 

@@ -6,6 +6,7 @@ int main()
 {
 
    // data type and variable declaration
+   
     char character;
     cout << "Enter  Any Character :" << endl; // message for display
     cin >> character;                         //taking input from user

@@ -11,6 +11,7 @@ void cmnfactor(int x, int y)
         if (x % hcf == 0 && y % hcf == 0)
         {
             cout << "\t" << hcf;
+            break;
         }
         hcf--;
     }

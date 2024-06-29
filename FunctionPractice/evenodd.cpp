@@ -4,11 +4,11 @@ void isPrime(int x){
     if(x%2==0)
 
 {
-cout<<"Prime Number";
+cout<<"even Number";
 }
 else
 {
-    cout<<"Not Prime";
+    cout<<"odd Prime";
 }
 }
 
