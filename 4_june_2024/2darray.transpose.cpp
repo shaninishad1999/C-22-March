@@ -24,6 +24,7 @@ int main(){
         }
        cout<<"\n"; 
     }
+    
 
      
     //  wap to print the sum of the values of 2d;

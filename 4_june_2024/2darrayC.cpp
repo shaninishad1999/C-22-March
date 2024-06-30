@@ -21,7 +21,6 @@ int main(){
             
            if (a[i][j]==1)
            {
-            
             a[i][j]=0;
            }
            cout<<a[i][j]<<"\t";

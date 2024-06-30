@@ -78,13 +78,13 @@ int main()
     cout << "Printed Array: \n";
     for (j = 1; j < n; j++)
     {
-        if (mx1 < a[i])
+        if (mx1 >mx2 )
 
         {
             mx2 = mx1;
             mx1 = a[i];
         }
-       else if (mx2>mx1 && mx1<a[i])
+       else if (mx2<mx1 && mx1>a[i])
         {
             mx2=a[i];
         }
