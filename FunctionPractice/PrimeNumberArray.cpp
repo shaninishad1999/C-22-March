@@ -26,8 +26,9 @@ void display(int *k,int l)
 }
 int main()
 {
-    int a[] = {20, 6, 18, 39, 8};
-    int s=sizeof(a)/sizeof(a[0]);
+    int a[5] = {20, 6, 18, 39, 8};
+    // int s=sizeof(a)/sizeof(a[0]);
+    int s=5;
     display(a,s);
 
 } // namespace std;int main()

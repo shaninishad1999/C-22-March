@@ -12,8 +12,6 @@ int main() {
         cin >> arr[i];
     }
 
-    cout << "Sorting array in ascending order...\n";
-
     // Bubble Sort Algorithm
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
