@@ -1,88 +1,47 @@
 #include <iostream>
 using namespace std;
-class top
-{
-    // multi function
-    //  public:void sum(){
-    //  cout<<"hello\n";
-    //  }
-    //  void show(){
-    //      cout<<"Show function\n";
-    //  }
-    //  void display(){
-    //      cout<<"display function";
-    //  }
 
-   
-   
-   
-   
-    // fucntion overloading
-
-// public:
-//     void sum(int a, int b)
-//     {
-//         cout << "function 1 overload \n";
-//         cout << "sum = " << a + b << endl;
-//     }
-//     void sum(float a, float b)
-//     {
-//         cout << "function 2 overload \n";
-//         cout << "sum = " << a + b << endl;
-//     }
-//     void sum(double a, double b)
-//     {
-//         cout << "function 3 overload \n";
-//         cout << "sum = " << a + b << endl;
-//     }
-
-//     void sum()
-//     {
-//         cout << "function overload\n";
-//     }
-
-
-//function overriding
-
+class top {
 public:
-    void sum(int a, int b)
-    {
+    // Functions
+    void sum() {
+        cout << "hello\n";
+    }
+
+    void show() {
+        cout << "Show function\n";
+    }
+
+    void display() {
+        cout << "display function\n";
+    }
+
+    // Function overloading
+    void sum(int a, int b) {
         cout << "function 1 overload \n";
         cout << "sum = " << a + b << endl;
     }
-    void sum(float a, float b)
-    {
+
+    void sum(float a, float b) {
         cout << "function 2 overload \n";
         cout << "sum = " << a + b << endl;
     }
-    void sum(double a, double b)
-    {
+
+    void sum(double a, double b) {
         cout << "function 3 overload \n";
         cout << "sum = " << a + b << endl;
     }
-
-    void sum()
-    {
-        cout << "function overload\n";
-    }
-
-
-
-
-
 };
-int main()
-{
-    // mulit funciton
-    //  top k;
-    //  k.sum();
-    //  k.show();
-    //  k.display();
 
-    // function overloading
+int main() {
+    top k;
+    k.sum();       // Calls sum() with no arguments
+    k.sum(10, 20);  // Calls sum(int, int)
+    k.sum(10.5f, 20.5f);  // Calls sum(float, float)
+    k.sum(10.123, 20.456);  // Calls sum(double, double)
 
-    // top l;
-    // l.sum(5,8);
-    // l.sum((float)5,(float)5);
-    // l.sum(5.45,5.12);  //by default compiler taken value double
+    k.show();      // Calls show()
+    k.display();   // Calls display()
+
+    return 0;
 }

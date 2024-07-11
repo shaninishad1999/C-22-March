@@ -9,7 +9,7 @@
 // int main(){
 //     bhopal b;  //object call
 //     b.show();   //object ke throw function call
-//     cout<<sizeof(b);
+    
 // }
 
 // #include<iostream>
