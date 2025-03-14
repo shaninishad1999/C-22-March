@@ -1,0 +1,23 @@
+All should be dynamic
+Q1. Vector sizes are same
+v1={1,2,3,}
+v2={2,5,6,}
+Output--> 3,7,9
+
+Q2. Vector size are diffrent
+v1={1,2,3}
+v2={5,6,1,4}
+Output--> {5,7,3,7}
+
+Q3. indivisual Vector sum check which is greater print them or equal print equal
+
+v1={1,2,3,}
+v2={2,5,6,}
+
+Q4. print unique value in accending order
+v={4,1,2,5,1,2,4}
+Output--> {1,2,4,5}
+
+Lamda
+
+
